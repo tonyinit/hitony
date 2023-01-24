@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hitony - full-stack dev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+      <div class="card p-4">
+        <div class="image d-flex flex-column justify-content-center align-items-center">
+          <button class="btn">
+            <img src="/nostrpfp.gif" height="100" width="100" />
+          </button>
+          <span class="name mt-3">tony</span>
+          <span class="idd">@tony</span>
+          <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+            <span class="idd1">npub10xmy0wn8cm6:hw35eweryswxvlyf</span>
+            <span><i class="fa fa-copy" onclick="copyNpub()"></i></span>
+          </div>
+          <div class="text mt-3">
+            <span>full-stack dev, student of bitcoin, nostr believer</span>
+          </div>
+          <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center">
+            <span><a href="https://github.com/tonyinit"><i class="fa fa-github"></i></a></span>
+          </div>
+          <div class="px-2 rounded mt-4 text-center">
+            <h4>Projects</h4>
+            <hr />
+            <div class="pb-2">
+              <a href="nostrogen" class="no-styling">nostrogen - a simple nostr vanity address generator</a>
+            </div>
+            <div class="pb-2">
+              <a href="nostrin" class="no-styling">nostrin - a linkedin-like nost client</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-4">
+      <a href="https://getalby.com/p/hitony" class="donate-link" target="_blank">⚡️hitony@getalby.com</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

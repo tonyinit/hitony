@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #221736, #0b0812);
+  color: white;
+  height: 100vh;
+}
+
+.card {
+  background-color: #0b0812;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 350px;
+}
+
+.image img {
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.card:hover .image img {
+  transform: scale(1.5);
+}
+
+.btn {
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.idd {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.idd1 {
+  font-size: 12px
+}
+
+.number {
+  font-size: 22px;
+  font-weight: bold
+}
+
+.follow {
+  color: #444444;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btn1 {
+  background-color: #000;
+  border: none;
+  color: #aeaeae;
+  font-size: 15px;
+  height: 40px;
+  width: 150px;
+}
+
+.text span {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.icons i {
+  font-size: 19px;
+}
+
+hr .new1 {
+  border: 1px solid;
+}
+
+.join {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: bold;
+}
+
+.donate-link {
+  color: #fff;
+  text-decoration: none;
+}
+  
+.donate-link:hover {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.no-styling {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+.no-styling:hover {
+  text-decoration: none;
+  color: white;
+}
